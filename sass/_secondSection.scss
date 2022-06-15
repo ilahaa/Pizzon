@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Mukta:wght@300&family=Oxanium:wght@600&family=PT+Sans+Narrow&display=swap');
+
+.secondSection{
+    width: 100%;
+    height: 80vh;
+    background: #fd9d3e;
+    position: relative;
+    font-family: 'PT Sans Narrow', sans-serif;
+
+    .order-top{
+        position: absolute;
+        top: -80px;
+    img{
+       width: 100%;
+    }
+    }
+    .order-bottom{
+        position: absolute;
+        bottom: -90px;
+        left: 0;
+        img{
+            max-width: 100%
+        }
+    }
+    .secondSectionBox{
+        img{
+            width: 100px;
+        }
+        h2{
+            font-size: 30px;
+            font-weight: 700;
+            color: #121619;
+            padding-top: 10px;
+            padding-bottom: 8px;
+        }
+        p{
+            font-size: 14px;
+            color: #121619;
+        }
+        }
+    }
+    @media only screen and (max-width: 600px){
+        .secondSection{
+            height: auto;
+            overflow: hidden;
+            .order-top{
+                position: absolute;
+                top: -30px;
+            }
+            .order-bottom{
+                position: absolute;
+                bottom: -30px;
+                left: 0;
+            }
+        }
+    }

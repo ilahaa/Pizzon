@@ -1,0 +1,41 @@
+.sixthSection{
+    background-color: #121619;
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    .chef-top-bg {
+        position: absolute;
+        top: -231px;
+    img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none;
+    }
+
+}
+.texts{
+    margin-top: 100px;
+    h4{
+        font-size: 30px;
+        color: #fd9d3e;
+        font-family: 'Pacifico', cursive;
+    }
+    h1{
+        font-size: 60px;
+        color: #fff;
+        line-height: 58px;
+        font-weight: 700!important;
+    }
+}
+.chef-bottom-bg {
+    position: absolute;
+    bottom: -231px;
+    img {
+        width: 100%;
+        vertical-align: middle;
+        border-style: none;
+    }
+}
+
+}

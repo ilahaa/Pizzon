@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Mukta:wght@300&family=Oxanium:wght@600&family=PT+Sans+Narrow&family=Pacifico&display=swap');
+.seventhSection{
+    width: 100%;
+    height: 150vh;
+    background-color: #fff;
+    .texts{
+        margin-top: 100px;
+        h4{
+            font-size: 30px;
+            color: #fd9d3e;
+            font-family: 'Pacifico', cursive;
+        }
+        h1{
+            font-size: 70px;
+            color: #1d1d1d;
+            line-height: 58px;
+            font-weight: 700!important;
+        }
+    }
+    .images{
+        img{
+            width: 100%;
+            height: 350px;
+            transform: scale(1.0);
+            transition: .7s;
+            position: relative;
+        }
+        ul {
+            display: flex;
+            justify-content: space-between;
+            li{
+                display: inline-block;
+                color: #1d1d1d;
+            }
+         
+        }
+        h6{
+            width: 100%;
+            margin-top: 25px;
+            font-size: 17px;
+            color: #1d1d1d;
+            font-weight: 700!important;
+            transition: .5s;
+            &:hover{
+                transition: .5s;
+                color: #fd9d3e;
+            }
+        }
+        a{
+            color: #fd9d3e;
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 600px){
+    .seventhSection{
+        height: auto;
+        .texts{
+            h1{
+                font-size: 50px;
+            }
+        }
+    }
+}

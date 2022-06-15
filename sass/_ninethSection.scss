@@ -1,0 +1,44 @@
+.ninethSection{
+    width: 100%;
+    .texts{
+        h4{
+            font-size: 30px;
+            color: #fd9d3e;
+            font-family: 'Pacifico', cursive;
+        }
+        h1{
+            font-size: 60px;
+            color: #1d1d1d;
+            line-height: 58px;
+            font-weight: 700!important;
+        }
+        p{
+            font-size: 14px;
+            color: #121619;
+            padding-top: 20px;
+        }
+        .button{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 160px;
+            height: 55px;
+            border: 1px solid #fd9d3e;
+            background-color: #fd9d3e;
+            border-radius: 50px;
+            color: #fff;
+            transition: .7s;
+            margin-top: 50px;
+            &:hover{
+                transition: .7s;
+                background-color: #fff;
+                color: #fd9d3e;
+            }
+        }
+    } 
+}
+@media only screen and (max-width: 600px){
+    .ninethSection{
+        height: auto;
+    }
+}

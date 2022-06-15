@@ -1,0 +1,81 @@
+footer{
+        background: #121619;
+        padding-top: 100px;
+        color: #fff;
+        a{
+            text-decoration: none;
+            color: #fff;
+           
+        }
+        li{
+            list-style: none;
+        }
+
+        .footer {
+            padding-bottom: 95px;
+            border-bottom: 1px solid #202529;
+            .row{
+                flex-wrap: wrap;
+                margin-right: -15px;
+                margin-left: -15px;
+            }
+           .footer-des {
+                font-size: 14px;
+                color: #fff;
+                max-width: 240px;
+                padding-top: 35px;
+                padding-bottom: 10px;
+            }
+            li{
+            font-size: 14px;
+            color: #fff;
+            padding: 10px 0px;
+            text-transform: uppercase;
+            }
+            .opening-hours{
+            h2{
+                font-size: 20px;
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 700;
+                letter-spacing: 1px;
+                padding-top: 11px;
+            }
+            ul{
+                max-width: 240px;
+                padding-top: 50px;
+    li{
+        font-size: 14px;
+        color: #fff;
+        padding: 9px 0px;
+        letter-spacing: 1px;
+    }
+            }
+        }
+        .useful-links{
+            h2{
+            font-size: 20px;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+            padding-top: 11px;
+            }
+            ul{
+                padding-top: 50px;
+                li{
+                    padding-bottom: 2px;
+                }
+            }
+        }
+        }
+        .copyright{
+            ul{
+            text-align: right;
+            li{
+                display: inline-block;
+    padding-left: 8px;
+            }
+        }
+    }
+}

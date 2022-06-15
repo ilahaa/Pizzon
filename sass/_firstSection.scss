@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600&family=Mukta:wght@300&family=Oxanium:wght@600&family=PT+Sans+Narrow&display=swap');
+
+.firstSection{
+    width: 100%;
+    height: auto;
+    background-image: url(../img/chef-bg.png);
+    background-color: #121619;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    .onlineOrderBtn{
+        width: 120px;
+        height: 40px;
+        background-color:#91b842;
+        color: #fff;
+        border-radius: 20px;
+    }
+    .firstSliderTexts{
+        font-family:'PT Sans Narrow', sans-serif;
+        h1{
+            font-size: 150px;
+            color: #fefefe;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        span{
+            color: #fd9d3e;
+        }
+        p{
+            font-size: 24px;
+            color: #fd9d3e;
+            text-transform: uppercase;
+            letter-spacing: 9px;
+        }
+    }
+    .pizzaImg{
+        width: 500px;
+    }
+    .secondSliderTexts{
+        h1{
+            font-size: 120px;
+            color: #fefefe;
+            text-transform: uppercase;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+        span{
+            color: #fd9d3e;
+        }
+        p{
+            font-size: 24px;
+            color: #fd9d3e;
+            text-transform: uppercase;
+            letter-spacing: 9px;
+        }
+
+    }
+    .secondSliderImages{
+       
+        .fallingImg{
+            position: absolute;
+            margin-left: 700px;
+
+        }
+    }
+ 
+}
+
+@media only screen and (max-width: 600px){
+    .firstSection{
+        height: auto;
+        overflow: hidden;
+        .firstSliderTexts{
+            h1{
+                font-size: 100px;
+            }
+        }
+        .pizzaImg{
+            width: 400px;
+        }
+        .secondSliderTexts{
+            h1{
+                font-size: 100px;
+            }
+        }
+        .pizzaImg2{
+            width: 100%;
+        }
+    }
+}
